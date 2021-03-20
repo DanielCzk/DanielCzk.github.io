@@ -1,0 +1,385 @@
+@font-face {
+  font-family: "Gabelisa";
+  src: url("../fonts/Gabelisa.otf"); }
+@font-face {
+  font-family: "Frederick";
+  src: url("../fonts/Frederick.ttf"); }
+@font-face {
+  font-family: "Montserrat_regular";
+  src: url("../fonts/Montserrat-regular.ttf"); }
+@font-face {
+  font-family: "Montserrat_bold";
+  src: url("../fonts/Montserrat-bold.ttf"); }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+body {
+  -ms-border-radius: 4px;
+  background-color: #fff;
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Montserrat_regular'; }
+  body header {
+    height: 900px;
+    font-size: 18px;
+    font-family: 'Montserrat_bold';
+    background: linear-gradient(100deg, #fedf01 68%, #e0dea4 32%); }
+    body header #Logo_header {
+      width: 60%;
+      max-height: 100px;
+      float: left;
+      background-color: #fedf01; }
+      body header #Logo_header #Logo_header_picture {
+        max-width: 250px;
+        margin: 20px 0px 0px 40px; }
+    body header #Contact_header {
+      width: 30%;
+      max-height: 100px;
+      float: right;
+      display: inline-block;
+      margin-top: 10px; }
+      body header #Contact_header #Contact_header_block1 {
+        text-align: right;
+        float: left; }
+        body header #Contact_header #Contact_header_block1 #phone_number {
+          font-size: 28px;
+          margin-top: -15px; }
+      body header #Contact_header #Header_phone {
+        max-height: 60px;
+        max-width: 60px;
+        margin: 10px 0px 0px 20px; }
+    body header nav {
+      width: 100%;
+      float: right;
+      margin: 0 auto;
+      letter-spacing: 3px; }
+      body header nav ul {
+        float: right; }
+      body header nav ul > li {
+        display: inline; }
+      body header nav li {
+        padding-right: 100px; }
+    body header #Header_promo {
+      width: 50%;
+      float: left;
+      text-align: center;
+      font-size: 36px;
+      font-family: 'Frederick'; }
+      body header #Header_promo h1 {
+        font-family: 'Gabelisa';
+        font-weight: 400;
+        font-size: 36px;
+        margin: 50px 0px -50px; }
+      body header #Header_promo img {
+        max-height: 100px;
+        max-width: 100px;
+        transform: rotate(55deg);
+        float: left;
+        margin-right: 15px;
+        position: absolute;
+        top: 200px;
+        right: 82%; }
+      body header #Header_promo hr {
+        width: 400px;
+        border: 1px solid #cab101;
+        margin-bottom: -40px; }
+      body header #Header_promo p {
+        display: inline-block; }
+      body header #Header_promo #Header_promo_headline {
+        font-size: 36px;
+        font-family: 'Frederick';
+        display: block;
+        font-size: 72px;
+        margin-bottom: 10px; }
+      body header #Header_promo #Header_promo_order {
+        font-size: 18px;
+        font-family: 'Montserrat_bold';
+        margin-bottom: -40px; }
+      body header #Header_promo #Header_promo_option1 {
+        font-size: 18px; }
+      body header #Header_promo #Header_promo_option2 {
+        font-size: 56px; }
+      body header #Header_promo #Button_header {
+        display: inline-block;
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+      body header #Header_promo button {
+        padding: 10px 40px 10px;
+        margin-top: -30px;
+        border: 1px solid black;
+        background-color: inherit;
+        font-size: 18px;
+        font-family: 'Montserrat_bold'; }
+    body header #Header_images {
+      width: 49%;
+      float: right; }
+      body header #Header_images #Pizza_image {
+        max-width: 900px;
+        margin-left: 50px; }
+      body header #Header_images #Tomato_image {
+        max-height: 80px;
+        max-width: 80px;
+        position: absolute;
+        top: 650px;
+        right: 40%; }
+      body header #Header_images #Pasta_image {
+        max-height: 80px;
+        max-width: 80px;
+        position: absolute;
+        top: 200px;
+        right: 40%;
+        transform: rotate(80deg); }
+      body header #Header_images #Leaf2_image {
+        max-height: 80px;
+        max-width: 80px;
+        position: absolute;
+        top: 650px;
+        right: 20%; }
+  body #menu {
+    text-align: center; }
+    body #menu #menu_title {
+      font-size: 36px;
+      font-family: 'Frederick';
+      margin: 10px 0px 30px 0px;
+      width: 100%;
+      font-size: 48px;
+      display: inline-block; }
+    body #menu p {
+      text-transform: none;
+      margin: 0px 200px 0px; }
+    body #menu #menu_color {
+      background-color: #e8e6a9;
+      height: 150px;
+      width: 100%;
+      margin-top: 200px; }
+    body #menu .column {
+      width: 33%;
+      margin: 50px 0px 100px;
+      float: left; }
+      body #menu .column .column_image {
+        height: 400px; }
+        body #menu .column .column_image img {
+          max-width: 400px; }
+      body #menu .column h4 {
+        font-size: 18px;
+        font-family: 'Montserrat_bold'; }
+      body #menu .column p {
+        font-size: 16px; }
+      body #menu .column .order_button {
+        background-color: #fedf01;
+        font-size: 18px;
+        font-family: 'Montserrat_bold';
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 10px 40px 10px;
+        margin-top: 30px;
+        border: none; }
+  body #events {
+    text-align: center; }
+    body #events h4 {
+      font-size: 18px;
+      font-family: 'Montserrat_bold'; }
+    body #events #events_text {
+      font-size: 18px;
+      font-family: 'Montserrat_regular';
+      text-transform: none; }
+    body #events #events_title {
+      font-size: 36px;
+      font-family: 'Frederick'; }
+  body .photos {
+    margin-top: 100px;
+    width: 100%;
+    min-height: 500px; }
+    body .photos #photos_row_left {
+      width: 50%;
+      display: inline-block;
+      float: left; }
+      body .photos #photos_row_left img {
+        margin-right: 35px;
+        float: right; }
+    body .photos .photos_row_right {
+      width: 50%;
+      display: inline-block;
+      float: left;
+      margin: 0px 0px 0px; }
+      body .photos .photos_row_right img {
+        height: 191px;
+        margin: 0px 0px 0px; }
+      body .photos .photos_row_right #photo_image2 {
+        margin-top: 30px; }
+  body .booking {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px; }
+    body .booking h4 {
+      margin-bottom: 15px; }
+    body .booking #booking_title {
+      font-size: 36px;
+      font-family: 'Frederick';
+      font-size: 42px;
+      margin-bottom: 50px; }
+    body .booking form {
+      margin: 0 auto; }
+      body .booking form input {
+        box-sizing: border-box; }
+      body .booking form .form_input {
+        padding: 20px 30px 20px 10px;
+        width: 300px;
+        margin: 20px 15px 0px 0px;
+        font-size: 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border: 1px solid #ccc; }
+      body .booking form #submit {
+        background-color: #fedf01;
+        font-size: 18px;
+        font-family: 'Montserrat_bold';
+        border: none;
+        text-align: center;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px; }
+  body footer {
+    color: #fff;
+    text-transform: initial;
+    background-color: #131314;
+    height: 700px; }
+    body footer #footer_row_left {
+      margin: 200px 0px 0px 100px;
+      width: 40%;
+      float: left; }
+      body footer #footer_row_left #footer_rights_reserved {
+        margin-top: 250px; }
+    body footer #footer_row_right {
+      margin: 210px 0px 0px 0px;
+      width: 40%;
+      float: right;
+      z-index: 2; }
+      body footer #footer_row_right img {
+        float: left; }
+      body footer #footer_row_right p {
+        margin: 0px 0px 0px 60px; }
+      body footer #footer_row_right #social_icons {
+        float: right;
+        margin: 250px 100px 0px 0px; }
+        body footer #footer_row_right #social_icons img {
+          margin-right: 10px; }
+    body footer #footer_logo {
+      position: absolute;
+      left: 100px;
+      margin-top: 100px; }
+
+@media all and (max-width: 1350px) {
+  body header {
+    height: 700px; }
+    body header #Header_promo {
+      width: 100%; }
+      body header #Header_promo img {
+        display: none; }
+      body header #Header_promo hr {
+        width: 80%; }
+    body header #Header_images {
+      display: none; }
+  body #menu p {
+    margin: 0px 0px 0px 0px; }
+  body #menu .column {
+    width: 100%; } }
+@media all and (max-width: 900px) {
+  body header {
+    background: linear-gradient(100deg, #fedf01 100%, #e0dea4 0%); }
+    body header #rwd_menu {
+      position: fixed;
+      top: 30px;
+      right: 30px; }
+      body header #rwd_menu .burger_menu {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: black;
+        border-radius: 3px; }
+    body header #Logo_header {
+      width: 60%;
+      max-height: 100px;
+      float: left;
+      background-color: #fedf01; }
+      body header #Logo_header #Logo_header_picture {
+        max-width: 200px; }
+    body header #Contact_header {
+      display: none; }
+    body header nav {
+      display: none; }
+  body .photos {
+    width: 100%; }
+    body .photos #photos_row_left {
+      width: 100%; }
+      body .photos #photos_row_left img {
+        width: 100%;
+        margin: 0px 0px -5px 0px; }
+    body .photos .photos_row_right {
+      width: 100%;
+      display: inline-block;
+      float: none;
+      margin: -4px 0px 0px; }
+      body .photos .photos_row_right img {
+        height: auto;
+        width: 100%; }
+      body .photos .photos_row_right #photo_image2 {
+        margin-top: 0px; }
+  body footer #footer_row_left {
+    margin: 150px 0px 50px 50px;
+    width: 80%;
+    float: left; }
+    body footer #footer_row_left #footer_rights_reserved {
+      margin-top: 0px; }
+  body footer #footer_row_right {
+    margin: 0px 0px 0px 50px;
+    width: 100%; }
+    body footer #footer_row_right img {
+      float: left;
+      margin: 0px 10px 0px 50px; }
+    body footer #footer_row_right p {
+      margin: 0px 0px 0px 0px; }
+    body footer #footer_row_right #social_icons {
+      float: left;
+      margin: 100px 0px 0px -40px; }
+      body footer #footer_row_right #social_icons img {
+        margin: 0px 10px 0px 0px; }
+  body footer #footer_logo {
+    position: absolute;
+    left: 50px;
+    margin-top: 50px;
+    max-height: 50px; } }
+@media all and (max-width: 700px) {
+  body header {
+    zoom: 80% !important; }
+  body #menu p {
+    margin: 0px 5px 0px 5px;
+    font-size: 14px !important; }
+  body #menu #menu_title {
+    zoom: 70%;
+    margin-top: 20px; }
+  body #menu .column {
+    margin: 20px 0px 20px 0px; }
+    body #menu .column p {
+      margin: 0px 5px 0px 5px; }
+    body #menu .column .column_image {
+      height: auto; }
+      body #menu .column .column_image img {
+        max-width: 200px; }
+  body #menu #menu_color {
+    display: none; }
+  body #events p {
+    font-size: 14px !important; }
+  body #events #events_title {
+    zoom: 80%; }
+  body footer {
+    font-size: 14px !important; } }
+
+/*# sourceMappingURL=style.css.map */
